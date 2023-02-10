@@ -59,7 +59,7 @@
 
 - [Live Demo Link](https://anita00001.github.io/Exhibition-Page/)
 
-- [Watch Presentation](https://www.loom.com/share/81d472d2a0bc4139b1f198b8dd9dbe6d)
+- [Watch Presentation](https://www.loom.com/share/b33d053459f64619ac4ffe455b74302e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,8 +111,7 @@ If you like this project feel comfortable to endorse the author. You can contact
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank my coding partners, mentors and Microverse for their support in building the project.
+> I would like to acknowledge [Cindy Shin in Behance](https://www.behance.net/adagio07) for providing the template of the design. I would like to thank my coding partners, mentors and Microverse for their support in building the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
