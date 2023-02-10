@@ -76,9 +76,6 @@ body {
   padding: 0 0 3rem;
 }
 
-
-
-/* Division */
 .department {
   width: 100%;
   height: fit-content;
@@ -89,6 +86,7 @@ body {
   background-image: url("assets/pattern_bg.png");
   background-repeat: repeat;
   background-position: top;
+  z-index: 1;
 }
 
 .department-header {
@@ -148,9 +146,6 @@ body {
   display: none;
 }
 
-
-
-/* committee */
 .committee {
   width: 100%;
   display: flex;
