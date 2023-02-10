@@ -123,6 +123,7 @@ body {
 }
 
 .department-name {
+  text-align: center;
   color: #ec5242;
 }
 
@@ -291,6 +292,7 @@ body {
   }
 
   .image {
+    background-image: url('assets/checkbox-desktop.png');
     height: 8rem;
   }
 
