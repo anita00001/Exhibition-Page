@@ -59,7 +59,7 @@
 
 - [Live Demo Link](https://anita00001.github.io/Exhibition-Page/)
 
-- [Watch Presentation](https://www.loom.com/share/b33d053459f64619ac4ffe455b74302e)
+- [Watch Presentation](https://www.loom.com/share/3d2a285da9714af3a47fc72cbef0d6e1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
