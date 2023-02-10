@@ -30,13 +30,13 @@
       <a class="header-logo" href="#"></a>
       <a class="hamburger" href="#"><i id="menu-icon" class="fa-solid fa-bars" onclick="changeIcon(this)"></i></a>
       <a class="menu-open">
-        <ul class="menu-list">
-          <li><a href="#about-page">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Live Score</a></li>
-          <li><a href="#">Participate</a></li>
+        <ul id="menu-list" class="menu-list">
+          <li><a id="list-item1" href="#about-page">About</a></li>
+          <li><a id="list-item2" href="#">Program</a></li>
+          <li><a id="list-item3" href="#">Sponsor</a></li>
+          <li><a id="list-item4" href="#">News</a></li>
+          <li><a id="list-item5" href="#">Live Score</a></li>
+          <li><a id="list-item6" href="#">Participate</a></li>
         </ul>
       </a>
     </nav>
@@ -97,39 +97,11 @@
       <span class="see-more">SEE ALL PROGRAMS</span>
     </section>
   
-    <section class="committee">
+    <section id="committee" class="committee">
       <h2 class="committee-header">Committee</h2>
       <hr>
-      <div class="member-wrap">
-        <div class="member">
-          <div class="image">
-            <img class="photo" src="assets/anita.jpg" alt="Human icon">
-          </div>
-          <div class="wrap-details">
-            <h3 class="name">Sachina Tuladhar</h3>
-            <p class="position">Chairman, Robotics Club, Pulchowk Campus</p>
-            <hr>
-            <p class="detail">Tuladhar is the chairman of Robotics Club since 2020, and the organizer of "Footstep of
-              Buddha-2022"</p>
-          </div>
-        </div>
-  
-        <div class="member">
-          <div class="image">
-            <img class="photo" src="assets/anita.jpg" alt="Human icon">
-          </div>
-          <div class="wrap-details">
-            <h3 class="name pb">Sachina Tuladhar</h3>
-            <p class="position pb">Chairman, Robotics Club, Pulchowk Campus</p>
-            <hr>
-            <p class="detail pb">Tuladhar is the chairman of Robotics Club since 2020, and the organizer of "Footstep of
-              Buddha-2022"</p>
-          </div>
-        </div>
-  
-      </div>
-      <button class="more">MORE  <span><i class="fa-solid fa-chevron-down"></i></span></button>
-      
+      <div id="member-wrap" class="member-wrap"></div>
+      <button class="more">MORE  <span><i class="fa-solid fa-chevron-down"></i></span></button>      
     </section>
 
   </section>
@@ -189,6 +161,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
   
 </body>
 </html>

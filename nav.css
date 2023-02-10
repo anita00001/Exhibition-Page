@@ -73,7 +73,7 @@ header {
 }
 
 .hamburger {
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .fa-bars {
@@ -97,6 +97,28 @@ header {
 
 .menu-list li a:hover {
   color: #ec5242;
+}
+
+/* Mobile-menu */
+
+.mobile-menu-navbar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fa-times {
+  font-size: 8vw;
+}
+
+.mobile-menu-list {
+  margin-top: 3rem;
+  margin-right: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 5vw;
+  padding-bottom: 3rem;
 }
 
 @media all and (min-width: 768px) {

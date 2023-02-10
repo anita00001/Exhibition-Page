@@ -180,11 +180,19 @@ body {
   gap: 0.5rem;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .image {
   width: 10rem;
   background-image: url('assets/checkbox.png');
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 60%;
   display: flex;
   align-items: flex-end;
   justify-content: right;
@@ -192,7 +200,7 @@ body {
 
 .image .photo {
   width: 85%;
-  height: 90%;
+  height: 85%;
 }
 
 .wrap-details {
@@ -287,13 +295,21 @@ body {
     display: block;
   }
 
+  .image {
+    height: 8rem;
+  }
+
   .committee hr {
     width: 5%;
   }
 
   .member-wrap {
-    flex-direction: row;
-    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hide {
+    display: flex;
   }
 
   .more {
