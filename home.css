@@ -19,20 +19,20 @@ body {
 }
 
 .main-page {
- width: 100%;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-bg {
   background-image: url("assets/theme.jpg");
   background-repeat: repeat;
   background-size: cover;
-  background-position: top; 
-  opacity: 0.08; 
-  position: absolute; 
+  background-position: top;
+  opacity: 0.08;
+  position: absolute;
   height: 50rem;
   width: 100%;
 }
@@ -51,7 +51,7 @@ body {
   font-size: 3.5rem;
   font-weight: 900;
   color: #ec5242;
-  padding: 0 0 1rem
+  padding: 0 0 1rem;
 }
 
 .short-description {
@@ -78,7 +78,6 @@ body {
 
 .department {
   width: 100%;
-  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,10 +200,6 @@ body {
 .image .photo {
   width: 85%;
   height: 85%;
-}
-
-.wrap-details {
-  height: fit-content;
 }
 
 .name {

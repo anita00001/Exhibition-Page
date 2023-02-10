@@ -47,6 +47,11 @@ header {
   color: #ec5242;
 }
 
+.menu-list li a {
+  text-decoration: none;
+  color: #4e4b4b;
+}
+
 .menu-list li:last-child a {
   color: #ec5242;
 }
@@ -88,11 +93,6 @@ header {
 .menu-list {
   display: none;
   align-items: center;
-}
-
-.menu-list li a {
-  text-decoration: none;
-  color: #4e4b4b;
 }
 
 .menu-list li a:hover {
