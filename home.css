@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.home-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+}
+
+.main-page {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.main-bg {
+  background-image: url("assets/theme.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: top; 
+  opacity: 0.08; 
+  position: absolute; 
+  height: 50rem;
+  width: 100%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.greeting {
+  font-size: 2rem;
+  color: #ec5242;
+  padding: 10rem 0 0.5rem;
+}
+
+.headline {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ec5242;
+  padding: 0 0 1rem
+}
+
+.short-description {
+  padding: 1rem;
+  color: #272a31;
+  background-color: #d3d3d3;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.time {
+  font-size: 2.5rem;
+  color: #272a31;
+  font-weight: 900;
+  padding: 1rem 0 0.5rem;
+}
+
+.venue {
+  color: #272a31;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0 3rem;
+}
+
+
+
+/* Division */
+.department {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  background-image: url("assets/pattern_bg.png");
+  background-repeat: repeat;
+  background-position: top;
+}
+
+.department-header {
+  padding: 2rem 0 0.5rem;
+  color: #d3d3d3;
+}
+
+.department hr {
+  width: 8%;
+  height: 2px;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.wrap-engineering {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0 0;
+}
+
+.engineering {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.engineering img {
+  height: 15vh;
+  width: 20vw;
+}
+
+.department-name {
+  color: #ec5242;
+}
+
+.description {
+  color: #d3d3d3;
+  padding: 0 0.3rem;
+  text-align: justify;
+}
+
+.button-participate {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d3d3d3;
+  background-color: #ec5242;
+  margin: 2rem 0;
+  padding: 1.5rem 3rem;
+}
+
+.see-more {
+  display: none;
+}
+
+
+
+/* committee */
+.committee {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.committee-header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #272a31;
+  padding: 2rem 0 0.5rem;
+}
+
+.committee hr {
+  border: 1px solid #ec5242;
+  width: 12%;
+}
+
+.member-wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.member {
+  display: flex;
+  height: 30%;
+  gap: 0.5rem;
+}
+
+.image {
+  width: 10rem;
+  background-image: url('assets/checkbox.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.image .photo {
+  width: 85%;
+  height: 90%;
+}
+
+.wrap-details {
+  height: fit-content;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.position {
+  color: #ec5242;
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+.wrap-details hr {
+  border: 1px solid #d3d3d3;
+}
+
+.detail {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #272a31;
+  padding: 1rem 0 0;
+}
+
+.more {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+}
+
+.more i {
+  font-size: 1rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+@media all and (min-width: 768px) {
+  .main-bg {
+    height: 40rem;
+  }
+
+  .w-90 {
+    width: 70%;
+  }
+
+  .short-description {
+    width: 60%;
+    margin-right: 10%;
+  }
+
+  .venue {
+    padding: 0 0 5rem;
+  }
+
+  .wrap-engineering {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .engineering {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .engineering img {
+    height: 15vh;
+    width: 100%;
+  }
+
+  .button-participate {
+    display: none;
+  }
+
+  .see-more {
+    color: #d3d3d3;
+    text-decoration: underline;
+    padding: 3rem 0;
+    display: block;
+  }
+
+  .committee hr {
+    width: 5%;
+  }
+
+  .member-wrap {
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+
+  .more {
+    display: none;
+  }
+}
