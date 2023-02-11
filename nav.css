@@ -126,6 +126,10 @@ header {
     display: flex;
   }
 
+  .nav-bar {
+    background-color: #fff;
+  }
+
   .header-logo {
     display: block;
   }
