@@ -226,7 +226,8 @@ body {
   padding: 1rem 0 0;
 }
 
-.more {
+.more,
+.less {
   width: 90%;
   padding: 1rem;
   font-size: 1rem;

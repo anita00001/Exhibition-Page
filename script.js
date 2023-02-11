@@ -29,7 +29,7 @@ for (let i = 0; i < targetListItem.length; i += 1) {
 
 const targetMemberWrap = document.getElementById('member-wrap');
 const targetCommittee = document.getElementById('committee');
-const targetMoreButton = document.getElementsByClassName('more');
+const targetMoreButton = document.getElementById('more');
 
 const memberArray = [
   {
@@ -92,6 +92,10 @@ for (let i = 0; i <= memberArray.length; i++) {
   targetMemberWrap.appendChild(divMember);
 
   if (i >= 2) {
-    divMember.className = "member hide";
+    divMember.style.display = 'none';
+    targetMoreButton.addEventListener('click', () => {
+    divMember.style.display = 'flex';
+    targetMoreButton.style.display = 'none';
+  });
   }
 }
