@@ -92,7 +92,7 @@ for (let i = 0; i <= memberArray.length; i++) {
   targetMemberWrap.appendChild(divMember);
 
   if (i >= 2) {
-    divMember.style.display = 'none';
+    divMember.classList = 'member hide'
     targetMoreButton.addEventListener('click', () => {
     divMember.style.display = 'flex';
     targetMoreButton.style.display = 'none';
